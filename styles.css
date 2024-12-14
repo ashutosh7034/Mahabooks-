@@ -1,0 +1,207 @@
+.h{
+    font-family:georgia;
+    font-size:60px;
+    color:brown;
+    font-weight:bold;
+    text-shadow: 5px 3px orange;
+    }
+    table,tr,th{
+    border:8px solid darkblue;
+    border-radius:36px;
+    margin-left:auto;
+    margin-right:auto;
+    width:900px;
+    padding:6px;
+    margin:25px;
+    background-color:aliceblue;
+    }
+    .std{
+    background-color:white;
+    font-size:85px;
+    font-family:georgia;
+    color:red;
+    text-shadow:5px 5px yellow;
+    }
+    .sud{
+    font-family:georgia;
+    font-size:40px;
+    color:blue;
+    font-weight:bold;
+    }
+    #one{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 2s;
+    }
+    #two{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 2s;
+    }
+    #three{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 3s;
+    }
+    #four{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 3.5s;
+    }
+    #five{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 3.5s;
+    }
+    #six{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 3.5s;
+    }
+    #seven{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 3.5s;
+    }
+    #eight{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 3.5s;
+    }
+    #nine{
+    max-height: 0px;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 4s;
+    }
+    #ten{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 4s;
+    }
+    #eleven{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 4s;
+    }
+    #twelve{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 4s;
+    }
+    #elevenc{
+    max-height:0px ;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 4s;
+    }
+    #twelvec{
+    max-height:0px;
+    overflow-y:hidden;
+    list-style-type:none;
+    transition: all 4s;
+    }
+    .btn{
+    width:200px;
+    height:68px;
+    border-radius:20px;
+    background-color:lightyellow;
+    color:darkblue;
+    font-family:georgia;
+    font-size:42px;
+    outline:none;
+    font-weight:bold;
+    border:5px solid brown;
+    }
+    .btn:hover{
+    border:5px solid darkblue;
+    color:brown;
+    }
+    hr{
+    height:8px;
+    font-family:georgia;
+    font-weight:bold;
+    }
+    a{
+    font-size:50px;
+    color:darkblue;
+    font-weight:bold;
+    }
+    #btn{
+    width:350px;
+    border-radius:40px;
+    background-color:lightyellow;
+    color:red;
+    font-family:georgia;
+    font-size:70px;
+    outline:none;
+    font-weight:bold;
+    border:6px solid green;
+    }
+    #btn:hover{
+    border:6px solid red;
+    color:green;
+    }
+    img{
+    border-radius:35px;
+    }
+    /* Responsive Design */
+@media (max-width: 768px) {
+    .h {
+        font-size: 6vw;
+    }
+    .std {
+        font-size: 7vw;
+    }
+    .sud {
+        font-size: 3.5vw;
+    }
+    .btn {
+        width: 30vw;
+        height: 9vw;
+        font-size: 3.5vw;
+    }
+    #btn {
+        width: 90%;
+        font-size: 5vw;
+    }
+    table, tr, th {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .h {
+        font-size: 7vw;
+    }
+    .std {
+        font-size: 8vw;
+    }
+    .sud {
+        font-size: 4vw;
+    }
+    .btn {
+        width: 40vw;
+        height: 12vw;
+        font-size: 4vw;
+    }
+    #btn {
+        font-size: 6vw;
+    }
+    a {
+        font-size: 5vw;
+    }
+}
+
+    
